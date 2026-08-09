@@ -1,0 +1,14 @@
+# Never commit secrets to version control.
+.env
+.env.local
+.env.*.local
+
+# Python caches and environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+matrix_env/
+
+# Generated outputs.
+matrix_analysis.png
