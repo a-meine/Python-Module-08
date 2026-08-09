@@ -1,0 +1,18 @@
+[project]
+name = "loading"
+version = "0.1.0"
+description = "demonstrate different dpendency managment"
+authors = [
+    {name = "ameine",email = "209898262+a-meine@users.noreply.github.com"}
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas (==2.1.4)",
+    "numpy (==1.26.4)",
+    "matplotlib (==3.8.4)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
